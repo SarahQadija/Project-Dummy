@@ -16,8 +16,13 @@
 
         th,
         td {
-            padding: 20px;
+            padding: 15px;
             columns: 2;
+            font-size: 17px;
+        }
+
+        h1 {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
         }
         </style>
 </head>
@@ -28,7 +33,7 @@
     <form>
         <table>
             <tr>
-                <th>No</th>
+                <th>No.</th>
                 <th>Floor Number</th>
                 <th>Status</th>
                 <th>Quantity</th>
