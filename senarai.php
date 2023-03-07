@@ -16,8 +16,8 @@
 
         th,
         td {
-            padding: 15px;
-            text-align: left;
+            padding: 20px;
+            columns: 2;
         }
         </style>
 </head>
