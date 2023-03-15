@@ -18,15 +18,15 @@
         <li><a  href="senarai.php">Display Parking</a></li>
         <li><a href="edit.php">Info Parking</a></li>
         <li><a href="#contact">Report Monthly Parking</a></li>
-        <li style="float:right"><a class="active" href="#about">Logout</a></li>
+        <li style="float:right"><a class="active">Logout</a></li>
     </ul>
     <p></p>
     <table>
         <tr>
-            <td><img src="gambar/pekanrabu.jpg" width="500" height="320">
-            <img src="gambar/car.jpg" width="500" height="320">
-            <img src="gambar/park.jpg" width="500" height="320">
-            <img src="gambar/parking.jpg" width="500" height="320"></td>
+            <td><img src="gambar/pekanrabu.jpg" width="400" height="250">
+            <img src="gambar/car.jpg" width="400" height="250">
+            <img src="gambar/park.jpg" width="400" height="250">
+            <img src="gambar/parking.jpg" width="400" height="250"></td>
         </tr>
     </table>
 
