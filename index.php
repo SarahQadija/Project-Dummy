@@ -29,6 +29,25 @@
                                 </div>
                                 <input type="submit" name="submit" value="Login">
                             </form>
+                            <p>
+<fieldset>
+<table>
+    <tr>
+        <td><label>SENARAI PROGRAMMER</label></td>
+    </tr>
+    <tr>
+        <td><label>1. REPORT (NUR SHAZLEEN AZIEM)</label></td>
+    </tr>
+
+    <tr>
+        <td><label>2. EDIT (SARAH QADIJA)</label></td>
+    </tr>
+
+    <tr>
+        <td><label>3. DISPLAY (NUR AZWA ALEEYA)</label></td>
+    </tr>
+</table>
+</fieldset>
     </body>
     </html>
 
