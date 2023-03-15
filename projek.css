@@ -1,0 +1,57 @@
+/*pagebypage*/
+.background {
+    background-color:#A3E4D7;
+}
+
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    color: #7B241C;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A6ACAF;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    float: right;
+}
+
+/*senarai*/
+table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            columns: 2;
+            font-size: 17px;
+        }
+
+        h1 {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
