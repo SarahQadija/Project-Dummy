@@ -1,12 +1,13 @@
 /*pagebypage*/
 .background {
-    background-color:#A3E4D7;
+    background-color: #A3E4D7;
 }
 
-h2 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 28px;
     color: #7B241C;
+    font-weight: bold;
 }
 
 ul {
@@ -14,7 +15,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #A6ACAF;
+    background-color: #333;
 }
 
 li {
@@ -23,35 +24,41 @@ li {
 
 li a {
     display: block;
+    font-size: 20px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover:not(.active) {
     background-color: #111;
+}
+
+.active {
+    background-color: #707B7C;
 }
 
 .active {
     float: right;
 }
 
+
 /*senarai*/
 table,
-        th,
-        td {
-            border: 2px solid black;
-            border-collapse: collapse;
-        }
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
 
-        th,
-        td {
-            padding: 15px;
-            columns: 2;
-            font-size: 17px;
-        }
+th,
+td {
+    padding: 15px;
+    columns: 2;
+    font-size: 17px;
+}
 
-        h1 {
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-        }
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
