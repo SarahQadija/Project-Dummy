@@ -1,56 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+    <title>Login Interface Using Bootstrap in PHP</title>
+    <!-- Include the Bootstrap CSS file -->
+    <link rel="stylesheet" href="project.css">
+</head>
 
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-2"></div>
+            <div class="col-lg-6 col-md-8 login-box">
+                <div class="col-lg-12 login-key">
+                    <i class="fa fa-key" aria-hidden="true"></i>
+                </div>
+                <div class="col-lg-12 login-title">
+                    ADMIN PANEL
+                </div>
 
-    <head>
-        <title>Login Interface Using Bootstrap in PHP</title>
-        <!-- Include the Bootstrap CSS file -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-    </head>
-
-    <body>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-6 mx-auto">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="text-center">Login</h3>
-                        </div>
-                        <div class="card-body">
+                <div class="col-lg-12 login-form">
+                    <div class="col-lg-12 login-form">
                             <form method="post" action="login.php">
                                 <div class="form-group">
-                                    <label for="username">Username:</label>
-                                    <input type="text" name="username" id="username" required><br><br>
+                                    <label for="username" class="form-control-label">USERNAME</label>
+                                    <input type="text" name="username" id="username" class="form-control" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="password">Password:</label>
-                                    <input type="password" name="password" id="password" required><br><br>
+                                    <label for="password" class="form-control-label">PASSWORD</label>
+                                    <input type="password" name="password" id="password" class="form-control" required>
                                 </div>
-                                <input type="submit" name="submit" value="Login">
+
+                                <div class="col-lg-12 loginbttm">
+                                    <div class="col-lg-6 login-btm login-text">
+                                    </div>
+                                    <div class="col-lg-6 login-btm login-button">
+                                        <button type="submit" class="btn btn-outline-primary">LOGIN</button>
+                                    </div>
+                                </div>
                             </form>
-                            <p>
-<fieldset>
-<table>
-    <tr>
-        <td><label>SENARAI PROGRAMMER</label></td>
-    </tr>
-    <tr>
-        <td><label>1. REPORT (NUR SHAZLEEN AZIEM)</label></td>
-    </tr>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2"></div>
+            </div>
+        </div>
+</body>
 
-    <tr>
-        <td><label>2. EDIT (SARAH QADIJA)</label></td>
-    </tr>
-
-    <tr>
-        <td><label>3. DISPLAY (NUR AZWA ALEEYA)</label></td>
-    </tr>
-</table>
-</fieldset>
-    </body>
-    </html>
-
-
-
-
+</html>
