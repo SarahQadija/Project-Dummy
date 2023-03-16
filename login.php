@@ -23,7 +23,7 @@ if (mysqli_num_rows($result) == 1) {
     // User exists, start a session and redirect to dashboard page
     session_start();
     $_SESSION['username'] = $username;
-    header("Location: dashboard.php");
+    header("Location: index2.php");
 } else {
     // User doesn't exist, show an error message
     echo "Invalid username or password";
