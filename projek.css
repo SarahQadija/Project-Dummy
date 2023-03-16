@@ -1,0 +1,82 @@
+/*index2*/
+.background {
+    background-color: #e57373;
+}
+
+div {
+    text-align: center;
+
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #7B241C;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #707B7C;
+}
+
+/*senarai*/
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    columns: 2;
+    font-size: 17px;
+}
+
+h1 {
+    font-weight: bolder;
+    color: #7B241C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.back {
+    border: 2px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ffab91;
+    color: black;
+    border-radius: 12px;
+}
+

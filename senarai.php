@@ -6,64 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        table,
-        th,
-        td {
-            border: 2px solid black;
-            border-collapse: collapse;
-        }
-
-        th,
-        td {
-            padding: 15px;
-            columns: 2;
-            font-size: 17px;
-        }
-
-        h1 {
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-        }
-        </style>
+    <link rel="stylesheet" href="projek.css">
 </head>
 
-<body>
+<body class="background">
+    <div>
+        <img src="gambar/logo.png" width="200px" height="200px">
+    </div>
+    <ul>
+        <li><a href="senarai.php">Display Parking</a></li>
+        <li><a href="info.php">Info Parking</a></li>
+        <li><a href="#contact">Report Monthly Parking</a></li>
+        <li style="float:right"><a class="active">Logout</a></li>
+    </ul>
     <h1>View All Parking Attendants</h1>
     <div>
-    <form>
-        <table>
-            <tr>
-                <th>No.</th>
-                <th>Floor Number</th>
-                <th>Status</th>
-                <th>Quantity</th>
-            </tr>
-         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-         </tr>
-         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-         </tr>
-         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-         </tr>
-         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-         </tr>
-        </table>
-    </form>
+        <form>
+            <table>
+                <tr>
+                    <th>No.</th>
+                    <th>Floor Number</th>
+                    <th>Status</th>
+                    <th>Quantity</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+                <a href="index2.php" target="_blank" class="back">HOME</a>
+        </form>
     </div>
 
 
