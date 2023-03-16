@@ -22,7 +22,7 @@
         <li style="float:right"><a class="active">Logout</a></li>
     </ul>
     <p>
-        <h1>Info Parking</h1>
+    <h1>Info Parking</h1>
     <table border="1">
         <tr>
             <th>BIL++</th>
