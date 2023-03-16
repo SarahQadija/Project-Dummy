@@ -10,42 +10,52 @@
 </head>
 
 <body class="background">
+    <div>
+        <img src="gambar/logo.png" width="200px" height="200px">
+    </div>
+    <ul>
+        <li><a href="senarai.php">Display Parking</a></li>
+        <li><a href="edit.php">Info Parking</a></li>
+        <li><a href="#contact">Report Monthly Parking</a></li>
+        <li style="float:right"><a class="active">Logout</a></li>
+    </ul>
     <h1>View All Parking Attendants</h1>
     <div>
-    <form>
-        <table>
-            <tr>
-                <th>No.</th>
-                <th>Floor Number</th>
-                <th>Status</th>
-                <th>Quantity</th>
-            </tr>
-         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-         </tr>
-         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-         </tr>
-         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-         </tr>
-         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-         </tr>
-        </table>
-    </form>
+        <form>
+            <table>
+                <tr>
+                    <th>No.</th>
+                    <th>Floor Number</th>
+                    <th>Status</th>
+                    <th>Quantity</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+                <a href="index2.php" target="_blank" class="back">HOME</a>
+        </form>
     </div>
 
 

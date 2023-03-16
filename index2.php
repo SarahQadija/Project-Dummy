@@ -13,9 +13,11 @@
 </head>
 
 <body class="background">
-    <h1 align="center">PEKAN RABU PARK</h1>
+    <div>
+    <img src="gambar/logo.png" width="200px" height="200px">
+    </div>
     <ul>
-        <li><a  href="senarai.php">Display Parking</a></li>
+        <li><a href="senarai.php">Display Parking</a></li>
         <li><a href="edit.php">Info Parking</a></li>
         <li><a href="#contact">Report Monthly Parking</a></li>
         <li style="float:right"><a class="active">Logout</a></li>
@@ -24,9 +26,10 @@
     <table>
         <tr>
             <td><img src="gambar/pekanrabu.jpg" width="400" height="250">
-            <img src="gambar/car.jpg" width="400" height="250">
-            <img src="gambar/park.jpg" width="400" height="250">
-            <img src="gambar/parking.jpg" width="400" height="250"></td>
+                <img src="gambar/car.jpg" width="400" height="250">
+                <img src="gambar/park.jpg" width="400" height="250">
+                <img src="gambar/parking.jpg" width="400" height="250">
+            </td>
         </tr>
     </table>
 
