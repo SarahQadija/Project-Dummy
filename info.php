@@ -17,10 +17,12 @@
     </div>
     <ul>
         <li><a href="senarai.php">Display Parking</a></li>
-        <li><a href="edit.php">Info Parking</a></li>
+        <li><a href="info.php">Info Parking</a></li>
         <li><a href="#contact">Report Monthly Parking</a></li>
         <li style="float:right"><a class="active">Logout</a></li>
     </ul>
+    <p>
+        <h1>Info Parking</h1>
     <table border="1">
         <tr>
             <th>BIL++</th>
@@ -47,6 +49,10 @@
             <td>2023/03/25</td>
         </tr>
     </table>
+    <p>
+    <div>
+        <a href="index2.php" target="_blank" class="home">HOME</a>
+    </div>
 </body>
 
 </html>
