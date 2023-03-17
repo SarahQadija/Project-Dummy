@@ -57,13 +57,13 @@ if(isset($_POST["generate_pdf"]))
 <!DOCTYPE html>  
 <html>  
     <head>  
-         <title>SoftAOX | Generate HTML Table Data To PDF From MySQL Database Using TCPDF In PHP</title>  
+         <title>REPORT</title>  
          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />            
     </head>  
     <body>  
          <br />
          <div class="container">  
-              <h4 align="center"> Generate HTML Table Data To PDF From MySQL Database Using TCPDF In PHP</h4><br />  
+              <h4 align="center"> REPORT </h4><br />  
               <div class="table-responsive">  
                   <div class="col-md-12" align="right">
                    <form method="post">  

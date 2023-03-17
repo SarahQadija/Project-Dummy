@@ -16,7 +16,7 @@
     <ul>
         <li><a href="senarai.php">Display Parking</a></li>
         <li><a href="info.php">Info Parking</a></li>
-        <li><a href="#contact">Report Monthly Parking</a></li>
+        <li><a href="print.php">Report Monthly Parking</a></li>
         <li style="float:right"><a class="active">Logout</a></li>
     </ul>
     <h1>View All Parking Attendants</h1>
