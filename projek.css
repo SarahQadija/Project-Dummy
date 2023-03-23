@@ -93,3 +93,18 @@ h1 {
     text-align: center;
 }
 
+.btn1 {
+    border: 2px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ffab91;
+    color: black;
+    border-radius: 12px;
+}
+
+
+
+
+
