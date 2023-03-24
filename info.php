@@ -19,7 +19,7 @@
     <ul>
         <li><a href="senarai.php">Display Parking</a></li>
         <li><a href="info.php">Info Parking</a></li>
-        <li><a href="#contact">Report Monthly Parking</a></li>
+        <li><a href="print.php">Report Monthly Parking</a></li>
         <li style="float:right" class="active"><a href="index.php">Logout</a></li>
     </ul>
     <p>
