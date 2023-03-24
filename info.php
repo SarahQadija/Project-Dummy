@@ -35,48 +35,15 @@
             <td></td>
             <td></td>
             <td></td>
-            <td align="center"><a href="kemaskini.php" target="_blank" class="home">Edit</a>
-                <a href="padam.php" target="_blank" class="home">Delete</a>
-            </td>
+            <td></td>
         </tr>
         <tr>
             <td></td>
             <td></td>
             <td></td>
-            <td align="center"><a href="kemaskini.php" target="_blank" class="home">Edit</a>
-                <a href="padam.php" target="_blank" class="home">Delete</a>
-            </td>
+            <td></td>
         </tr>
     </table>
-
-    <?php
-    $idPark = $_GET['edit'];
-    $sql = "SELECT*FROM car_park WHERE idPark=$idPark";
-    $row = $conn->query($sql)->fetch_object();
-    ?>
-    <form action="kemaskini.php" method="post">
-        <input type="hidden" name="idPark" value="<?php echo $row->idPark; ?>">
-        <fieldset>
-            <legend>Edit Parking</legend>
-            <table>
-                <tr>
-                    <td>FLOOR NUMBER</td>
-                    <td><input type="text" name="floor_number" require value="<?php echo $row->floor_number; ?>"></td>
-                </tr>
-                <tr>
-                    <td>STATUS</td>
-                    <td><input type="boolval" name="status" required value="<?php echo $row->status; ?>"></td>
-                </tr>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <button type="submit">SIMPAN</button>
-                        <button type="reset">BATAL</button>
-                    </td>
-                </tr>
-            </table>
-        </fieldset>
-    </form>
     <p>
     <div>
         <a href="index2.php" target="_blank" class="home">HOME</a>
