@@ -20,7 +20,7 @@
         <li><a href="print.php">Report Monthly Parking</a></li>
         <li style="float:right"><a class="active">Logout</a></li>
     </ul>
-    <h1>View All Parking Attendants</h1>
+    <h1>View All Parking</h1>
     <div>
         <form>
             <table>
