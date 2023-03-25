@@ -20,9 +20,10 @@
         <li><a href="print.php">Report Monthly Parking</a></li>
         <li style="float:right" class="active"><a href="login_html.php">Logout</a></li>
     </ul>
-    <h1>View All Parking</h1>
+    <h1 align="center">View All Parking</h1>
     <div>
         <form>
+            <center>
             <table>
                 <tr>
                     <th>No.</th>
@@ -55,6 +56,8 @@
                     <td></td>
                 </tr>
             </table>
+            </center>
+            <br>
                 <a href="index2.php" target="_blank" class="back">HOME</a>
         </form>
     </div>

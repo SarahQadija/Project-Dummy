@@ -23,7 +23,8 @@
         <li style="float:right" class="active"><a href="login_html.php">Logout</a></li>
     </ul>
     <p>
-    <h1>Info Parking</h1>
+    <h1 align="center">Info Parking</h1>
+    <center>
     <table border="1" class="header">
         <tr>
             <th>BIL++</th>
@@ -44,7 +45,8 @@
             <td></td>
         </tr>
     </table>
-    <p>
+    </center>
+    <br>
     <div>
         <a href="index2.php" target="_blank" class="home">HOME</a>
     </div>
