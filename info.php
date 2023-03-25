@@ -20,7 +20,7 @@
         <li><a href="senarai.php">Display Parking</a></li>
         <li><a href="info.php">Info Parking</a></li>
         <li><a href="print.php">Report Monthly Parking</a></li>
-        <li style="float:right" class="active"><a href="index.php">Logout</a></li>
+        <li style="float:right" class="active"><a href="login_html.php">Logout</a></li>
     </ul>
     <p>
     <h1>Info Parking</h1>
